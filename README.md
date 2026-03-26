@@ -79,7 +79,7 @@ All evaluation is performed on the held-out test set at the original fraud rate 
 
 | Metric | Default threshold (0.5) | Optimized threshold (0.98) |
 |---|---|---|
-| AUPRC | **0.6961** (random baseline: 0.0017) |, |
+| AUPRC | **0.6961** (random baseline: 0.0017) |  |
 | F1 Score | 0.1800 | **0.7813** |
 | Precision | 0.1000 | 0.7979 |
 | Recall | 0.9100 (catches 90.8% of fraud) | 0.7653 |
