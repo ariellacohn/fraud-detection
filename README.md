@@ -77,13 +77,11 @@ All evaluation is performed on the held-out test set at the original fraud rate 
 
 ## Key Results
 
-| Metric | Value |
-|---|---|
 | Metric | Default threshold (0.5) | Optimized threshold (0.98) |
 |---|---|---|
 | AUPRC | **0.6961** (random baseline: 0.0017) | — |
 | F1 Score | 0.1800 | **0.7813** |
-| Precision | — | 0.7979 |
+| Precision | 0.1000 | 0.7979 |
 | Recall | 0.9100 (catches 90.8% of fraud) | 0.7653 |
 
 The low default-threshold F1 reflects a deliberate high-recall operating point — at 0.5 the model flags broadly to catch as much fraud as possible (91% recall), and the threshold analysis shows how to dial in precision-recall balance for a specific production cost structure.
